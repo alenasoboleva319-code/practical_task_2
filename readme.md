@@ -1,0 +1,1 @@
+Ссылка на Github pages: (https://alenasoboleva319-code.github.io/practical_task_2/)

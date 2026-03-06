@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("fonts/TTLakes-Medium.woff") format("woff"),
+    url("fonts/TTLakes-Medium.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 320px;
+    box-shadow: 16px 0 52px 0 #0E185033,
+                -2px 0 4px 0 #454F7E05;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "MyFont";
+}
+
+.header {
+    display: flex;
+    margin-bottom: 53px;
+}
+.btn1 {
+    width: 40px;
+    height: 40px;
+    margin-top: 23px;
+    margin-left: 24px;
+    background-color: #FF3E79;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+}
+.logo {
+    width: 97px;
+    height: 51px;
+    margin-top: 17px;
+    margin-left: 19px;
+}
+.btn2 {
+    width: 40px;
+    height: 40px;
+    margin-top: 23px;
+    margin-left: auto;
+    margin-right: 24px;
+    padding: 0;
+    background-color: #FF3E79;
+    border-radius: 50%;
+    border: none;
+}
+.header svg {
+    vertical-align: middle;
+    text-align: center;
+}
+.header button:hover {
+    opacity: 0.5;
+    transform: rotate(90deg);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.nav {
+    white-space: pre;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.nav a:not(.repair) {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-decoration: none;
+    color: #1B1C21;
+    padding-top: 32px;
+    padding-left: 24px;
+}
+.repair {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-decoration: none;
+    color: #1B1C21;
+    padding-left: 24px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.nav .active {
+    color: #7E7E82;
+    background-image: url("image/highlight.svg");
+    background-repeat: no-repeat;
+}
+
+.foot {
+    margin: 0;
+    padding: 0;
+    margin-top: 268px;
+    margin-left: 24px;
+}
+.btn3 {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+    background-color: #FF3E79;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+}
+.btn4 {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    background-color: #FF3E79;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+}
+.btn5 {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    background-color: #FF3E79;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+}
+.contacts svg {
+    vertical-align: middle;
+    text-align: center;
+}
+.mail {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+}
+.tel {
+    margin-top: 12px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+}
+.contacts button:hover {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.lang {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    margin-left: 24px;
+    padding-bottom: 32px;
+}
+.lang a {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+}
+.lang .active {
+    color: #7E7E82;
+}
