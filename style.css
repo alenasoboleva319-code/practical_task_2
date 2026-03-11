@@ -66,26 +66,18 @@ body {
     display: flex;
     flex-direction: column;
 }
-.nav a:not(.repair) {
+.nav a {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
     text-decoration: none;
     color: #1B1C21;
-    padding-top: 32px;
-    padding-left: 24px;
-}
-.repair {
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.2px;
-    text-decoration: none;
-    color: #1B1C21;
-    padding-left: 24px;
-    padding-top: 4px;
     padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 24px;
+    margin-bottom: 32px;
 }
-.nav .active {
+.nav a:hover {
     color: #7E7E82;
     background-image: url("image/highlight.svg");
     background-repeat: no-repeat;
@@ -94,7 +86,7 @@ body {
 .foot {
     margin: 0;
     padding: 0;
-    margin-top: 268px;
+    margin-top: 236px;
     margin-left: 24px;
 }
 .btn3 {
@@ -160,6 +152,6 @@ body {
     line-height: 24px;
     letter-spacing: -0.2px;
 }
-.lang .active {
+.lang a:hover {
     color: #7E7E82;
 }
